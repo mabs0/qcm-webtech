@@ -1,0 +1,2675 @@
+[
+ {
+  "id": 234,
+  "unit": "Introduction to Web Technologies",
+  "question": "When a user enters an HTTPS URL in their browser, which sequence best describes the main steps that occur before the page is displayed if the domain's IP address is not already cached ?",
+  "answers": [
+   "HTTP request -> DNS -> TCP/TLS connection -> DOM rendering -> HTTP response",
+   "DNS -> TCP/TLS connection -> HTTP request -> HTTP response -> DOM construction and rendering",
+   "DNS -> HTTP request -> DOM construction -> TCP/TLS connection -> HTTP response",
+   "TCP/TLS connection -> DNS -> HTTP response -> HTTP request -> DOM rendering"
+  ]
+ },
+ {
+  "id": 149,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quelle est la première étape effectuée lorsqu’un utilisateur entre une URL dans son navigateur ?",
+  "answers": [
+   "Le serveur envoie immédiatement une réponse HTTP",
+   "Le navigateur effectue un rendu du HTML",
+   "Le navigateur vérifie si l’adresse IP du domaine est déjà présente dans le cache",
+   "Le serveur exécute une requête SQL"
+  ]
+ },
+ {
+  "id": 150,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quel est la signification des lettres DNS ?",
+  "answers": [
+   "Domain Name Server",
+   "Data Name Server",
+   "Domain Name System",
+   "Data Name System"
+  ]
+ },
+ {
+  "id": 151,
+  "unit": "Introduction to Web Technologies",
+  "question": "Comment un serveur DNS communique-t-il l'adresse IP associée à un nom de domaine à un ordinateur ?",
+  "answers": [
+   "En établissant une connexion HTTP directe pour transférer la donnée au client.",
+   "En renvoyant un message de réponse DNS, principalement via le protocole UDP.",
+   "En diffusant une trame ARP sur tout le réseau local pour joindre l'ordinateur.",
+   "En modifiant la table de routage de l'ordinateur via une instruction TCP."
+  ]
+ },
+ {
+  "id": 235,
+  "unit": "Introduction to Web Technologies",
+  "question": "What does the acronym \"CGI\" stand for?",
+  "answers": [
+   "Common Gateway Interface",
+   "Computer Graphics Interface",
+   "Central Gateway Internet",
+   "Common Graphics Integration"
+  ]
+ },
+ {
+  "id": 236,
+  "unit": "Introduction to Web Technologies",
+  "question": "Which pair of browsers fought during the \"Browser Wars\" mentioned in the course ?",
+  "answers": [
+   "Firefox and Chrome",
+   "Netscape Navigator and Microsoft Internet Explorer",
+   "Safari and Opera",
+   "Mosaic and Lynx"
+  ]
+ },
+ {
+  "id": 237,
+  "unit": "Introduction to Web Technologies",
+  "question": "Where can IP addresses resolved through DNS request can be cached?",
+  "answers": [
+   "In the web browser",
+   "In a cookie",
+   "On a local router",
+   "In a JSON file"
+  ]
+ },
+ {
+  "id": 238,
+  "unit": "Introduction to Web Technologies",
+  "question": "Which historic operating system is considered the foundational ancestor of most modern systems (like macOS and Android)?",
+  "answers": [
+   "GNU",
+   "Linus",
+   "UNIX",
+   "BSD"
+  ]
+ },
+ {
+  "id": 239,
+  "unit": "Introduction to Web Technologies",
+  "question": "What happens first when you type a URL and press Enter, before DNS resolution even occurs?",
+  "answers": [
+   "The browser directly opens a TCP connection",
+   "The browser checks if the domain is already cached locally",
+   "The server sends an HTTP response",
+   "The browser executes the page's JavaScript"
+  ]
+ },
+ {
+  "id": 152,
+  "unit": "Introduction to Web Technologies",
+  "question": "Lorsque vous inspectez les requêtes réseau dans les outils de développement, que signifie un code de statut HTTP \"404\" ?",
+  "answers": [
+   "La requête a été un succès (OK).",
+   "L'accès à la page est interdit ou non autorisé.",
+   "Le serveur a rencontré un problème interne et a crashé.",
+   "La ressource demandée n'a pas été trouvée sur le serveur."
+  ]
+ },
+ {
+  "id": 153,
+  "unit": "Introduction to Web Technologies",
+  "question": "Pourquoi le SSR est-il redevenu populaire après l'essor des SPA ?",
+  "answers": [
+   "Parce que le SSR améliore le SEO en envoyant du HTML déjà généré au navigateur",
+   "Parce que le SSR améliore le SEO et le temps d'affichage initial",
+   "Parce que le SSR supprime complètement le besoin d'un serveur",
+   "Parce que le SSR empêche les applications d'être interactives"
+  ]
+ },
+ {
+  "id": 154,
+  "unit": "Introduction to Web Technologies",
+  "question": "Qu'est-ce que Node.js ?",
+  "answers": [
+   "Une base de données NoSQL utilisée pour stocker des documents JSON",
+   "Un langage de programmation différent de JavaScript",
+   "Un environnement d'exécution JavaScript côté serveur",
+   "Un framework CSS pour créer des interfaces utilisateur"
+  ]
+ },
+ {
+  "id": 155,
+  "unit": "Introduction to Web Technologies",
+  "question": "Parmi les propositions suivantes, lesquelles sont correctes ? (Plusieurs réponses possibles)",
+  "answers": [
+   "Le World Wide Web a été inventé par Tim Berners-Lee en 1989.",
+   "JavaScript a été développé par Microsoft en 1995.",
+   "Le CGI (Common Gateway Interface) a permis de générer du contenu dynamique en exécutant des programmes côté serveur.",
+   "Les frameworks comme Next.js ou Nuxt.js utilisent le SSR (Server-Side Rendering) pour améliorer le SEO et le temps de chargement initial."
+  ]
+ },
+ {
+  "id": 156,
+  "unit": "Introduction to Web Technologies",
+  "question": "Qui a créé Node.js en 2009 ?",
+  "answers": [
+   "Brendan Eich",
+   "Ryan Dahl",
+   "Tim Berners-Lee",
+   "Marc Andreessen"
+  ]
+ },
+ {
+  "id": 157,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quel système d'exploitation, dont Linux s'est fortement inspiré, a directement influencé sa conception ?",
+  "answers": [
+   "Windows",
+   "MS-DOS",
+   "Unix",
+   "MacOS"
+  ]
+ },
+ {
+  "id": 158,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quel est le rôle principal du protocole HTTP (*Hypertext Transfer Protocol*) dans le fonctionnement du Web ?",
+  "answers": [
+   "Assurer le chiffrement de bout en bout et le hachage sécurisé des mots de passe sur le disque dur du serveur.",
+   "Permettre la communication et l'échange de messages et de documents (comme HTML) entre un client et un serveur.",
+   "Compiler et exécuter le code JavaScript directement dans le moteur du navigateur web.",
+   "Structurer la mise en page visuelle et le design responsive des pages web."
+  ]
+ },
+ {
+  "id": 159,
+  "unit": "Introduction to Web Technologies",
+  "question": "What does a web browser do when opening a web page?",
+  "answers": [
+   "It first checks its cache to see if it already knows the website address.",
+   "It parses the HTML code to build the page structure (the DOM).",
+   "It runs server-side scripts (such as PHP or Node.js) locally to generate dynamic content.",
+   "While parsing the HTML, whenever it encounters an image or stylesheet/script file, it sends a request to retrieve it."
+  ]
+ },
+ {
+  "id": 160,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quelle est la première étape lorsque l’utilisateur saisit une URL dans le navigateur ?",
+  "answers": [
+   "Le navigateur lance une requête HTTP",
+   "Le serveur renvoie une réponse HTML",
+   "Le navigateur vérifie son cache et effectue une résolution DNS si nécessaire",
+   "Le navigateur construit le DOM"
+  ]
+ },
+ {
+  "id": 161,
+  "unit": "Introduction to Web Technologies",
+  "question": "Que permet principalement React ?",
+  "answers": [
+   "Créer des interfaces utilisateur dynamiques",
+   "Gérer les serveurs DNS",
+   "Remplacer une base de données",
+   "Héberger un site Web"
+  ]
+ },
+ {
+  "id": 162,
+  "unit": "Introduction to Web Technologies",
+  "question": "Qui est le créateur du noyau Linux ?",
+  "answers": [
+   "Richard Stallman",
+   "Bill Gates",
+   "Linus Torvalds",
+   "Steve Jobs"
+  ]
+ },
+ {
+  "id": 163,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quel code de statut HTTP signifie que le serveur a bien compris la requête mais refuse de l'exécuter, même si le client s'authentifie correctement ?",
+  "answers": [
+   "404 Not Found",
+   "500 Internal Server Error",
+   "401 Unauthorized",
+   "403 Forbidden"
+  ]
+ },
+ {
+  "id": 240,
+  "unit": "Introduction to Web Technologies",
+  "question": "A web developer wants to improve the initial loading speed and SEO of a React-based website. Which technology from the course is specifically designed to address these two limitations of traditional SPAs?",
+  "answers": [
+   "CGI, because it executes external programs on the server",
+   "LAMP, because it combines Linux, Apache, MySQL and PHP",
+   "SSR, because the server generates the initial HTML before sending it to the browser",
+   "Git, because it manages different versions of the application"
+  ]
+ },
+ {
+  "id": 241,
+  "unit": "Introduction to Web Technologies",
+  "question": "According to the Conventional Commits specification, what prefix is used to designate a bug fix?",
+  "answers": [
+   "feat",
+   "style",
+   "chore",
+   "fix"
+  ]
+ },
+ {
+  "id": 320,
+  "unit": "Introduction to Web Technologies",
+  "question": "Which statements are used by CommonJS?",
+  "answers": [
+   "require()",
+   "module.exports",
+   "import",
+   "export"
+  ]
+ },
+ {
+  "id": 300,
+  "unit": "Introduction to Web Technologies",
+  "question": "What happens right after the DNS lookup when you load a web page?",
+  "answers": [
+   "The browser parses the HTML to build the DOM tree",
+   "The browser opens a TCP connection with the server, followed by a TLS handshake for HTTPS sites",
+   "The server sends an HTTP response with a status code",
+   "The browser executes the JavaScript of the page"
+  ]
+ },
+ {
+  "id": 301,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quel est le rôle d'une requête DNS ?",
+  "answers": [
+   "Chiffrer la connexion entre le navigateur et le serveur",
+   "Trouver l'adresse IP correspondant à un nom de domaine",
+   "Récupérer le fichier HTML de la page",
+   "Stocker les cookies de session"
+  ]
+ },
+ {
+  "id": 305,
+  "unit": "Introduction to Web Technologies",
+  "question": "How can a SPA update its content without reloading the entire page?",
+  "answers": [
+   "By using server-side rendering for every user interaction.",
+   "By using JavaScript to fetch data from an API and update the DOM.",
+   "By dynamically generating HTML on the server and sending it to the browser after each interaction.",
+   "By using AJAX to send requests to the server and dynamically update the page."
+  ]
+ },
+ {
+  "id": 306,
+  "unit": "Introduction to Web Technologies",
+  "question": "What happens when a web browser sends an HTTP GET request to a server?",
+  "answers": [
+   "The browser sends its entire local database to the server.",
+   "The server processes the request and returns an HTTP response, typically containing the requested resource.",
+   "The server automatically establishes a permanent WebSocket connection.",
+   "The browser directly accesses the server's filesystem without an HTTP response."
+  ]
+ },
+ {
+  "id": 310,
+  "unit": "Introduction to Web Technologies",
+  "question": "Why did modern frameworks such as Next.js reintroduce Server-Side Rendering (SSR) after the widespread adoption of Single Page Applications (SPAs)?",
+  "answers": [
+   "To completely eliminate JavaScript from web applications",
+   "To improve SEO, performance, and initial page load times",
+   "To replace HTTP with a new communication protocol",
+   "To avoid using databases in web development"
+  ]
+ },
+ {
+  "id": 314,
+  "unit": "Introduction to Web Technologies",
+  "question": "When a user types an HTTPS URL in the browser and the domain is not cached, in which order do these steps happen?",
+  "answers": [
+   "DNS lookup, TCP connection, TLS handshake, HTTP request, HTML parsing",
+   "TCP connection, DNS lookup, TLS handshake, HTTP request, HTML parsing",
+   "DNS lookup, HTTP request, TCP connection, TLS handshake, HTML parsing",
+   "DNS lookup, TCP connection, HTTP request, TLS handshake, HTML parsing"
+  ]
+ },
+ {
+  "id": 413,
+  "unit": "Introduction to Web Technologies",
+  "question": "You reorganize the code of a password-checking function to make it easier to read. Its behavior does not change and no bug is fixed. Which commit message follows the Conventional Commits specification?",
+  "answers": [
+   "`refactor(auth): simplify password check function`",
+   "`fix(auth): simplify password check function`",
+   "`feat(auth): simplify password check function`",
+   "`style(auth): simplify password check function`"
+  ]
+ },
+ {
+  "id": 323,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quelles sont les étapes d'une TCP handshake :",
+  "answers": [
+   "Ack/Syn Syn/Ack Syn",
+   "Syn Syn/Ack Ack",
+   "Syn/Syn Ack/Ack",
+   "Ack Syn/Ack Syn"
+  ]
+ },
+ {
+  "id": 324,
+  "unit": "Introduction to Web Technologies",
+  "question": "Qui a créé Git, et pourquoi ?",
+  "answers": [
+   "Linus Torvalds, 2005, pour remplacer BitKeeper",
+   "Linus Torvalds, 1991, en créant Linux",
+   "Linus Thorvald, pour sauver Kali Linux",
+   "Pour arrêter les fichiers \"final_v6.zip\" envoyés par email"
+  ]
+ },
+ {
+  "id": 325,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quelles affirmations sont correctes ?\n\nSi l’adresse IP est déjà présente dans le cache du navigateur ou du système d’exploitation,",
+  "answers": [
+   "Le navigateur peut éviter d’effectuer une requête DNS.",
+   "Le navigateur utilise directement l’adresse IP déjà mise en cache.",
+   "Le navigateur doit obligatoirement interroger à nouveau le DNS.",
+   "Le navigateur doit demander une nouvelle adresse IP au serveur."
+  ]
+ },
+ {
+  "id": 326,
+  "unit": "Introduction to Web Technologies",
+  "question": "Que contient une réponse HTTP envoyée par le serveur ?",
+  "answers": [
+   "Un code de statut (ex : 200, 404)",
+   "Le contenu de la page demandée",
+   "Des en-têtes (headers)",
+   "Le type de requête (GET, POST)"
+  ]
+ },
+ {
+  "id": 327,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quel est l'ordre correct des grandes étapes lors du chargement d'une page web après avoir saisi une URL ?",
+  "answers": [
+   "Requête HTTP → Résolution DNS → Handshake TCP/TLS → Rendu par le navigateur",
+   "Résolution DNS → Handshake TCP/TLS → Requête HTTP → Rendu par le navigateur",
+   "Handshake TCP/TLS → Résolution DNS → Requête HTTP → Rendu par le navigateur",
+   "Rendu par le navigateur → Résolution DNS → Requête HTTP → Handshake TCP/TLS"
+  ]
+ },
+ {
+  "id": 328,
+  "unit": "Introduction to Web Technologies",
+  "question": "Dans le cycle de chargement d'une page web, à quel moment le navigateur effectue-t-il le \"TLS/SSL handshake\" ?",
+  "answers": [
+   "Avant la résolution DNS, pour sécuriser la requête DNS elle-même",
+   "Après la résolution DNS et après l'établissement de la connexion TCP, avant l'envoi de la requête HTTP",
+   "Après avoir reçu la réponse HTTP du serveur, pour sécuriser le rendu de la page",
+   "En parallèle du parsing HTML, pendant que le DOM est construit"
+  ]
+ },
+ {
+  "id": 329,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quel est le rôle principal du DNS lors du chargement d’une page Web ?",
+  "answers": [
+   "Chiffrer la communication entre le navigateur et le serveur",
+   "Convertir un nom de domaine en adresse IP",
+   "Exécuter le code JavaScript de la page",
+   "Générer le contenu HTML du site"
+  ]
+ },
+ {
+  "id": 330,
+  "unit": "Introduction to Web Technologies",
+  "question": "Quel langage/framework est apparu en 2009 et permet le full-stack JavaScript ?",
+  "answers": [
+   "PHP",
+   "Ruby on Rails",
+   "Python / Django",
+   "JavaScript / Node.js + Express"
+  ]
+ },
+ {
+  "id": 164,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Qu'est-ce que le Runtime",
+  "answers": [
+   "Un moteur combiné avec un ensemble d'api",
+   "Un protocole de communication",
+   "Un service intégré au moteur de navigation qui interagit avec le navigateur",
+   "Un IDE intégré au navigateur"
+  ]
+ },
+ {
+  "id": 242,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "What are the roles of a package manager?",
+  "answers": [
+   "Install and update packages",
+   "Execute JavaScript code",
+   "Manage project dependencies",
+   "Replace the JavaScript runtime"
+  ]
+ },
+ {
+  "id": 243,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "In a package.json file, what is the purpose of the devDependencies section as opposed to dependencies?",
+  "answers": [
+   "It lists packages needed only during development, such as testing tools",
+   "It lists packages required for the application to run in production",
+   "It replaces dependencies in recent projects",
+   "It lists dependencies whose version is fixed exactly"
+  ]
+ },
+ {
+  "id": 165,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Dans le Semantic Versioning (Semver), que représente le chiffre Z dans X.Y.Z ?",
+  "answers": [
+   "Une nouvelle fonctionnalité majeure",
+   "Une correction de bug",
+   "Une modification incompatible",
+   "Le nom du package"
+  ]
+ },
+ {
+  "id": 244,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "If you want to use the same JavaScript language on both the front-end and back-end of an application. Which technology makes it possible by allowing JavaScript to run on the server side?",
+  "answers": [
+   "npm",
+   "Node.js",
+   "Express",
+   "ECMAScript"
+  ]
+ },
+ {
+  "id": 245,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "What is the relationship between Node.js and V8",
+  "answers": [
+   "V8 handles asynchronous I/O, Node.js handles code execution",
+   "V8 is the engine, Node.js is the runtime",
+   "The two names mean the same thing",
+   "Node.js is a runtime, V8 is a package manager used to install modules"
+  ]
+ },
+ {
+  "id": 166,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "À quoi sert principalement le fichier package-lock.json généré par NPM ?",
+  "answers": [
+   "À stocker les variables d'environnement et clés d'API nécessaires au serveur Node.js.",
+   "À lister les scripts exécutables personnalisés avec la commande npm run.",
+   "À garantir des installations déterministes en verrouillant l'arbre exact des dépendances installées.",
+   "À compiler le code JavaScript vers du binaire exécutable par le moteur V8."
+  ]
+ },
+ {
+  "id": 167,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which of the following statements are correct?",
+  "answers": [
+   "In Semantic Versioning (X.Y.Z), incrementing the major version X signals that breaking changes have been introduced.",
+   "In package.json, the constraint ^1.2.3 accepts any version whose major version is 1.",
+   "Packages listed in devDependencies are essential for the application to operate.",
+   "In package.json, the constraint ~1.2.3 accepts any version whose major version is 1."
+  ]
+ },
+ {
+  "id": 246,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "In the Node.js runtime, how are file read/write operations from the `fs` module (such as `fs.readFile`) executed in relation to the Event Loop?",
+  "answers": [
+   "They are executed synchronously on the main Event Loop thread, temporarily blocking the rest of the application.",
+   "They are delegated to a background thread pool managed by the libuv library, freeing up the main thread.",
+   "They are executed directly by Google's V8 engine, which natively handles multi-threaded file system I/O.",
+   "They are forwarded to the `child process` module to create a new system process for every call."
+  ]
+ },
+ {
+  "id": 168,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Dans une API développée avec Node.js et Express, quelle route HTTP permet de récupérer un article spécifique à partir de son identifiant `articleId` ?",
+  "answers": [
+   "`POST /articles/:articleId`",
+   "`GET /articles/:articleId`",
+   "`GET /articles`",
+   "`POST /articles/:articleId/comments`"
+  ]
+ },
+ {
+  "id": 169,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "What does the package.json file contain?",
+  "answers": [
+   "The project's dependencies",
+   "Specific web server configurations",
+   "Executable scripts",
+   "The Git commit history"
+  ]
+ },
+ {
+  "id": 170,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "How does CommonJS load modules in Node.js?",
+  "answers": [
+   "Asynchronously",
+   "Synchronously",
+   "Only when the file is executed for the first time in production",
+   "In parallel across multiple threads"
+  ]
+ },
+ {
+  "id": 247,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "What does this code print, in order?\n\n```js\nasync function run() {\n  console.log('A');\n  const x = await new Promise(res => setTimeout(() => res(10), 100));\n  console.log('B', x);\n}\nrun();\nconsole.log('C');\n```",
+  "answers": [
+   "C → A → B 10",
+   "A → B 10 → C",
+   "A → C → B 10",
+   "A → C → B undefined"
+  ]
+ },
+ {
+  "id": 171,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Que permettent les Promises en JavaScript ?",
+  "answers": [
+   "De représenter le résultat futur d'une opération asynchrone",
+   "De chaîner des étapes avec .then()",
+   "D'exécuter du code de façon synchrone",
+   "D'éviter l'imbrication des callbacks"
+  ]
+ },
+ {
+  "id": 172,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Quel est l’un des principaux avantages de Nodemon dans un projet Node.js ?",
+  "answers": [
+   "Il permet de créer automatiquement des fichiers JSON.",
+   "Il redémarre automatiquement le serveur lorsqu’une modification du code est détectée.",
+   "Il permet de publier automatiquement les modifications apportées au projet sur GitHub.",
+   "Il remplace Node.js et permet d’exécuter directement du code JavaScript dans le navigateur."
+  ]
+ },
+ {
+  "id": 173,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which entry is essential to include in the .gitignore file right from repository initialization to avoid bloating Git with downloaded packages?",
+  "answers": [
+   "package.json",
+   "package-lock.json",
+   "node_modules",
+   ".git/"
+  ]
+ },
+ {
+  "id": 174,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which statement correctly describes CommonJS in Node.js ?",
+  "answers": [
+   "It uses \"import\" and \"export\".",
+   "It uses \"pip install\".",
+   "It uses \"require\" and \"module.exports\".",
+   "None of the above."
+  ]
+ },
+ {
+  "id": 248,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which command creates a new package.json file in a Node.js project?",
+  "answers": [
+   "npm install",
+   "npm start",
+   "npm init",
+   "node package.json"
+  ]
+ },
+ {
+  "id": 175,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which information can we find in a package.json file in a Node.js project?",
+  "answers": [
+   "The project's database and server configuration",
+   "The project's scripts and general information",
+   "The complete source code of the project",
+   "The project's dependencies"
+  ]
+ },
+ {
+  "id": 249,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which standard HTTP method is typically used to retrieve a specific resource or a collection of resources?",
+  "answers": [
+   "POST",
+   "GET",
+   "PUT",
+   "DELETE"
+  ]
+ },
+ {
+  "id": 250,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Qu'est-ce que Node.js ?",
+  "answers": [
+   "Un navigateur web",
+   "Un environnement d'exécution qui permet de lancer du JavaScript côté serveur",
+   "Une base de données",
+   "Un éditeur de code"
+  ]
+ },
+ {
+  "id": 251,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "What is the main difference between CommonJS and ES Modules?",
+  "answers": [
+   "CommonJS uses import/export, while ES Modules use require.",
+   "CommonJS was introduced by Node.js before standardization, using require and module.exports.",
+   "ES Modules only work on older Node.js versions prior to 2009.",
+   "CommonJS is the official standard for modern web browsers, unlike ES Modules."
+  ]
+ },
+ {
+  "id": 176,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Le symbole ^ dans une version npm signifie…",
+  "answers": [
+   "Autorise les mises à jour de patch uniquement",
+   "Autorise les mises à jour de minor et patch",
+   "Autorise les mises à jour de major",
+   "Bloque la version exacte"
+  ]
+ },
+ {
+  "id": 252,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which statement about CommonJS and ES Modules is correct?",
+  "answers": [
+   "CommonJS uses import and export and ES Modules use require and module.exports",
+   "Both only support synchronous loading",
+   "CommonJS uses require() and module.exports and ES Modules uses import and export",
+   "ES Modules can only be used in web browsers"
+  ]
+ },
+ {
+  "id": 253,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which of these statements about CommonJS and ES Modules is true?",
+  "answers": [
+   "CommonJS uses import/export, while ES Modules uses require()/module.exports",
+   "CommonJS loads modules synchronously, while ES Modules loads them asynchronously",
+   "ES Modules is the module system Node.js created before standardization",
+   "CommonJS is the standardized module system"
+  ]
+ },
+ {
+  "id": 177,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which engine is Node.js built on?",
+  "answers": [
+   "SpiderMonkey",
+   "JavaScriptCore",
+   "Chakra",
+   "V8"
+  ]
+ },
+ {
+  "id": 254,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which transition in asynchronous patterns was specifically designed to solve the issue of 'Callback Hell' by allowing sequential, flat chaining?",
+  "answers": [
+   "From Promises to Async/Await.",
+   "From CommonJS to ES Modules.",
+   "From Callbacks to Promises.",
+   "From V8 to Node.js."
+  ]
+ },
+ {
+  "id": 178,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "In the CommonJS module system used in Node.js, how do you import a module?",
+  "answers": [
+   "By loading it asynchronously",
+   "By using import",
+   "By using require()",
+   "By using fetch()"
+  ]
+ },
+ {
+  "id": 179,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "If an app goes from version 1.5.5 to version 1.5.6, the app has :",
+  "answers": [
+   "A new patch",
+   "A new major update",
+   "A new minor update",
+   "Nothing new"
+  ]
+ },
+ {
+  "id": 180,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which statement best describes asynchronous programming?",
+  "answers": [
+   "It allows other code to run while waiting for operations like I/O to complete",
+   "It only works with mathematical calculations, not I/O",
+   "It executes code sequentially, blocking until each operation finishes",
+   "It requires all functions to run on separate physical machines"
+  ]
+ },
+ {
+  "id": 181,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Dans un fichier package.json, la dépendance \"express\": \"^4.17.1\" est déclarée. Parmi les versions suivantes, laquelle npm pourra-t-il installer ?",
+  "answers": [
+   "4.17.0",
+   "4.19.2",
+   "5.0.0",
+   "Uniquement 4.17.1"
+  ]
+ },
+ {
+  "id": 182,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which of the following statements regarding the package.json file in a Node.js project are true? (Select 2 correct answers",
+  "answers": [
+   "Essential dependencies required for the application to operate are declared under the dependencies key.",
+   "The package.json file is exclusively used to list startup scripts and cannot contain any information about the project's license.",
+   "The npm init command is used to create a new package and initialize this file.",
+   "The Semantic Versioning (Semver) format used in this file relies on a date format (YYYY-MM-DD)."
+  ]
+ },
+ {
+  "id": 183,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Quelle est la différence principale entre Node.js et JavaScript dans un navigateur ?",
+  "answers": [
+   "Node.js est un autre langage que JavaScript.",
+   "Node.js est un runtime basé sur le moteur V8 qui permet notamment d’exécuter JavaScript côté serveur.",
+   "Node.js est uniquement utilisé pour créer des pages HTML.",
+   "Node.js remplace complètement JavaScript."
+  ]
+ },
+ {
+  "id": 184,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Par rapport aux versions d'un programme, quelles propositions sont correctes ?",
+  "answers": [
+   "La \"1.2.x\" indique que l'on peut utiliser n'importe quelle mise à jour corrective (patch) associée à la version mineure 1.2.",
+   "La \"^1.2.3\" permet à votre gestionnaire de paquets de télécharger automatiquement la prochaine version majeure (2.0.0).",
+   "L'augmentation du numéro Majeur (x.x.x) indique l'introduction de changements incompatibles avec le code existant.",
+   "Le passage de la version 1.2.0-alpha à 1.2.0-beta signifie que le programme est désormais garanti sans aucun bug."
+  ]
+ },
+ {
+  "id": 185,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Quel outil sert principalement à la conteneurisation?",
+  "answers": [
+   "Docker",
+   "Jira",
+   "Nagios",
+   "Excel"
+  ]
+ },
+ {
+  "id": 255,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "What is the main purpose of a lock file such as package-lock.json ?",
+  "answers": [
+   "To prevent developers from modifying the package.json file.",
+   "To ensure that the same dependency versions are installed across different environments.",
+   "To automatically remove unused dependencies from node_modules.",
+   "To convert devDependencies into regular dependencies."
+  ]
+ },
+ {
+  "id": 186,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "In a package.json file, what is the purpose of devDependencies?",
+  "answers": [
+   "Packages essential for the app to operate in production",
+   "Packages downloaded only from a remote URL",
+   "Packages that lock the exact versions of all dependencies",
+   "Packages required only during development, like test runners or documentation tools"
+  ]
+ },
+ {
+  "id": 256,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which two of these are syntactically valid ways to import a package or module?",
+  "answers": [
+   "`import java.util.stream.Collectors;`",
+   "`import module from 'package'`",
+   "`require java.util;`",
+   "`include <package.h>`"
+  ]
+ },
+ {
+  "id": 187,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Which statements about dependencies in a Node.js project are correct?",
+  "answers": [
+   "They can be declared in the package.json file.",
+   "They are installed in the node_modules folder.",
+   "They must be written in the index.js file.",
+   "They can be installed using npm."
+  ]
+ },
+ {
+  "id": 302,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "Quel était le nom original de JavaScript avant de porter son nom actuel ?",
+  "answers": [
+   "ECMAScript",
+   "Mocha",
+   "JScript",
+   "NodeScript"
+  ]
+ },
+ {
+  "id": 307,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "What is the main advantage of using async/await with asynchronous I/O operations in Node.js?",
+  "answers": [
+   "It permanently blocks the JavaScript event loop until the operation finishes.",
+   "It automatically creates a new operating system thread for each operation.",
+   "It allows the program to handle the eventual result of an asynchronous operation without blocking the main JavaScript thread while waiting.",
+   "It guarantees that asynchronous operations finish in the order they were started."
+  ]
+ },
+ {
+  "id": 311,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "What is the difference between synchronous and asynchronous execution in Node.js?",
+  "answers": [
+   "Synchronous code is used for I/O operations, while asynchronous code is only used for calculations.",
+   "Synchronous code always uses multiple threads, while asynchronous code uses only one.",
+   "Synchronous code runs in the background, while asynchronous code blocks execution.",
+   "Synchronous code waits for each operation to finish, while asynchronous code can continue executing other tasks while waiting for a result."
+  ]
+ },
+ {
+  "id": 414,
+  "unit": "Getting started with JavaScript, Node.js, and Asynchronous Programming",
+  "question": "`fetchDataPromise()` returns a Promise that resolves with `{ id: 1, name: 'Alice' }`. What does this code print?\n\n```js\nfetchDataPromise()\n  .then(user => user.id)\n  .then(id => id * 10)\n  .then(result => console.log(result))\n```",
+  "answers": [
+   "`10`",
+   "`{ id: 1, name: 'Alice' }`",
+   "`undefined`, because the `.then()` callbacks don't call `resolve()`",
+   "`Promise { <pending> }`"
+  ]
+ },
+ {
+  "id": 331,
+  "unit": "Node.js and web APIs",
+  "question": "What does this version notation mean : ~1.2.3 ?",
+  "answers": [
+   "Major and Minor version must match",
+   "Major Patch version must match",
+   "Minor and Patch version must match",
+   "Any version that match at least one of the 3 version"
+  ]
+ },
+ {
+  "id": 332,
+  "unit": "Node.js and web APIs",
+  "question": "In a REST API, which HTTP method should be used to partially update an existing resource?",
+  "answers": [
+   "GET",
+   "POST",
+   "PUT",
+   "PATCH"
+  ]
+ },
+ {
+  "id": 333,
+  "unit": "Node.js and web APIs",
+  "question": "What is the main difference between PUT and PATCH?",
+  "answers": [
+   "PUT retrieves data while PATCH creates data",
+   "PUT completely updates a resource while PATCH partially updates it",
+   "PUT deletes a resource while PATCH retrieves data",
+   "There is no difference"
+  ]
+ },
+ {
+  "id": 334,
+  "unit": "Node.js and web APIs",
+  "question": "What is the use for 'Test-driven' development?",
+  "answers": [
+   "It consists of writing all the tests after the entire application codebase is complete, in order to validate it as a final step before production deployment",
+   "It is a practice where tests are written before the code, forcing developers to think about the expected behavior and requirements first.",
+   "It is a testing technique where production servers continuously run unit tests against live user traffic to detect failures in real time",
+   "It refers to manual interface testing on production servers."
+  ]
+ },
+ {
+  "id": 335,
+  "unit": "Node.js and web APIs",
+  "question": "À quoi sert principalement le framework Express dans une application Node.js ?",
+  "answers": [
+   "Gérer uniquement la connexion à la base de données",
+   "Créer une interface graphique (front-end)",
+   "Simplifier la création de serveurs web et d’API REST",
+   "Compiler le code JavaScript en code machine"
+  ]
+ },
+ {
+  "id": 336,
+  "unit": "Node.js and web APIs",
+  "question": "Quel est le rôle d’une assertion dans un test automatique ?",
+  "answers": [
+   "Démarrer le serveur avant chaque requête.",
+   "Créer les données nécessaires au test.",
+   "Vérifier qu’un résultat obtenu correspond au résultat attendu.",
+   "Corriger le code lorsque le test échoue."
+  ]
+ },
+ {
+  "id": 337,
+  "unit": "Node.js and web APIs",
+  "question": "Which HTTP verb is used to update an existing resource?",
+  "answers": [
+   "GET",
+   "POST",
+   "PUT",
+   "DELETE"
+  ]
+ },
+ {
+  "id": 338,
+  "unit": "Node.js and web APIs",
+  "question": "Among these options, which ones are not an HTTP method?",
+  "answers": [
+   "GET",
+   "ADD",
+   "FETCH",
+   "DELETE"
+  ]
+ },
+ {
+  "id": 339,
+  "unit": "Node.js and web APIs",
+  "question": "On considère le code suivant :\n\n```js\napp.get('/hello', function (req, res) {\nres.send(\"Hello \" + req.query.name)\n})\n```\n\nQuelle URL permet d'obtenir :\n\nHello John",
+  "answers": [
+   "http://localhost:3000/hello/:John",
+   "http://localhost:3000/hello?name=John",
+   "http://localhost:3000/hello/name/John",
+   "http://localhost:3000/hello&name=John"
+  ]
+ },
+ {
+  "id": 340,
+  "unit": "Node.js and web APIs",
+  "question": "Which of the following tools are used to manually send HTTP requests to test an API?",
+  "answers": [
+   "Postman",
+   "Mocha",
+   "curl",
+   "Supertest"
+  ]
+ },
+ {
+  "id": 341,
+  "unit": "Node.js and web APIs",
+  "question": "Qu'est-ce qui caractérise une REST API selon le cours ?",
+  "answers": [
+   "Elle expose un ensemble de routes HTTP.",
+   "Elle utilise uniquement le verbe GET.",
+   "Elle communique généralement en JSON.",
+   "Elle utilise les verbes HTTP standards comme GET, POST, PUT, DELETE."
+  ]
+ },
+ {
+  "id": 342,
+  "unit": "Node.js and web APIs",
+  "question": "Quelle structure de test unitaire est recommandée dans le cours ?",
+  "answers": [
+   "Setup → Execution → Validation → Cleanup",
+   "Setup → Validation → Execution → Cleanup",
+   "Exécution → Setup → Validation → Cleanup",
+   "Validation → Setup → Execution → Cleanup"
+  ]
+ },
+ {
+  "id": 343,
+  "unit": "Node.js and web APIs",
+  "question": "What does the acronym API stand for?",
+  "answers": [
+   "Application Programming Interface",
+   "Automated Protocol Integration",
+   "Application Process Identifier",
+   "Advanced Programming Instruction"
+  ]
+ },
+ {
+  "id": 344,
+  "unit": "Node.js and web APIs",
+  "question": "In which format does a REST API most often communicate?",
+  "answers": [
+   "XML",
+   "CSV",
+   "JSON",
+   "YAML"
+  ]
+ },
+ {
+  "id": 345,
+  "unit": "Node.js and web APIs",
+  "question": "What is the main purpose of a REST API?",
+  "answers": [
+   "To create only the graphical interface of an application",
+   "To allow different applications to communicate and exchange data",
+   "To completely replace a database",
+   "To automatically compile JavaScript code"
+  ]
+ },
+ {
+  "id": 257,
+  "unit": "Web API with REST and Express.js",
+  "question": "What is the main difference between route parameters and query parameters?",
+  "answers": [
+   "Route parameters are optional, while query parameters are always required.",
+   "Route parameters are used with GET, while query parameters are used with POST.",
+   "Route parameters are stored in the body, while query parameters are in headers.",
+   "Route parameters are in the URL path, while query parameters follow the `?`."
+  ]
+ },
+ {
+  "id": 258,
+  "unit": "Web API with REST and Express.js",
+  "question": "According to the course, which of the following is an anti-pattern when writing unit tests?",
+  "answers": [
+   "A test case that depends on the system state left by the previous test",
+   "Structuring each test as setup, execution, validation and cleanup",
+   "Testing a piece of code that can be logically isolated in the system",
+   "Using an assertion library to check that the returned information is valid"
+  ]
+ },
+ {
+  "id": 188,
+  "unit": "Web API with REST and Express.js",
+  "question": "Regarding the Test-Driven Development (TDD) cycle:",
+  "answers": [
+   "Step 1 consists of writing a test that fails",
+   "Step 1 is implementing code until the test passes, even if written quickly",
+   "In Step 3 (refactor), the code is made clean for maintainability while ensuring the test continues to pass",
+   "Refactoring requires modifying the test assertions to match the new code structure"
+  ]
+ },
+ {
+  "id": 189,
+  "unit": "Web API with REST and Express.js",
+  "question": "Regarding API testing tools and unit tests, which of the following statements are true?",
+  "answers": [
+   "The \"curl\" command allows you to simulate HTTP requests from a terminal",
+   "\"Postman\" is a JavaScript library used to write assertions in Node.js server-side code",
+   "Supertest allows you to test HTTP endpoints by directly simulating requests and checking the response status",
+   "The “should” and “expect” assertion styles are part of the Chai library, while “assert” is also available in Node.js"
+  ]
+ },
+ {
+  "id": 190,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which of the following are standard HTTP methods:",
+  "answers": [
+   "PUT",
+   "POST",
+   "NEW",
+   "DELETE"
+  ]
+ },
+ {
+  "id": 191,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which of the following statements are correct?",
+  "answers": [
+   "REST stands for REmote Server Transfer",
+   "REST stands for REpresentational State Transfer",
+   "The POST method is used to create a new resource",
+   "The PATCH method is used to delete a resource"
+  ]
+ },
+ {
+  "id": 192,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which of the following statements regarding REST HTTP methods are correct?",
+  "answers": [
+   "The POST method is used to partially update an existing resource by its ID.",
+   "The GET method retrieves a specific resource or a collection of resources.",
+   "The PUT method creates or completely updates a specific resource.",
+   "The PATCH method performs a partial update on a specific resource."
+  ]
+ },
+ {
+  "id": 193,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which of the following statements about REST APIs and Express.js are correct?",
+  "answers": [
+   "In Express, the route `/hello/:name` makes the value John from the URL `http://localhost:3000/hello/John` available through `req.params.name`.",
+   "The HTTP PATCH method is used to fully replace a resource, while PUT is used for partial updates.",
+   "Query parameters are optional, passed after the `?` character and separated by `&`.",
+   "A good practice in unit testing is to make each test case depend on the system state left by the previous test."
+  ]
+ },
+ {
+  "id": 194,
+  "unit": "Web API with REST and Express.js",
+  "question": "What are the four steps in a standard unit test structure?",
+  "answers": [
+   "Setup, Execution, Validation, Cleanup",
+   "Init, Run, Check, End",
+   "Start, Process, Assert, Stop",
+   "Plan, Do, Check, Act"
+  ]
+ },
+ {
+  "id": 195,
+  "unit": "Web API with REST and Express.js",
+  "question": "What's true about TDD?",
+  "answers": [
+   "The first step must succeed",
+   "It writes the unit tests before writing the application's source code",
+   "It's a network protocol for creating a REST API",
+   "It is essential for a REST API"
+  ]
+ },
+ {
+  "id": 259,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which of those paths follow good practices for a REST API?",
+  "answers": [
+   "`/articles/{article_id}`",
+   "`/articles/{article_id}/comments`",
+   "`/getArticle/{article_id}`",
+   "`/articles/{article_id}/getComments`"
+  ]
+ },
+ {
+  "id": 260,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which Bash command sends a GET request to the `/user` endpoint of a server running locally on port 3000?",
+  "answers": [
+   "`curl -G GET localhost/user:3000`",
+   "`curl -X POST http://localhost:3000/user`",
+   "`curl -X GET http://localhost:3000/user`",
+   "`curl --get-request http://localhost/3000/user`"
+  ]
+ },
+ {
+  "id": 196,
+  "unit": "Web API with REST and Express.js",
+  "question": "Dans /hello/:name, que représente :name ?",
+  "answers": [
+   "Un query parameter",
+   "Un header HTTP",
+   "Un paramètre de route",
+   "Le corps de la requête"
+  ]
+ },
+ {
+  "id": 197,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which following statement is true?",
+  "answers": [
+   "Query parameters are optional",
+   "Query parameters are passed in the URL after the `&` character",
+   "Query parameters are separated by the `?` character",
+   "Query parameters can be specified multiple times"
+  ]
+ },
+ {
+  "id": 198,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which of the following characteristics apply to REST APIs?",
+  "answers": [
+   "They must use GraphQL to handle routing and queries.",
+   "They typically communicate using JSON.",
+   "They expose a set of HTTP routes for client requests.",
+   "They use standard HTTP verbs such as GET, POST, PUT, and DELETE."
+  ]
+ },
+ {
+  "id": 199,
+  "unit": "Web API with REST and Express.js",
+  "question": "In the ‘Green’ phase of TDD, what should the developer do?",
+  "answers": [
+   "Write the minimum amount of code required to pass the test",
+   "Remove tests that fail",
+   "Rewrite the test so that it passes",
+   "Write code that is as optimised and comprehensive as possible"
+  ]
+ },
+ {
+  "id": 200,
+  "unit": "Web API with REST and Express.js",
+  "question": "Among the following statements, which one(s) is/are correct?",
+  "answers": [
+   "The REST architecture exposes a set of HTTP routes and communication is usually done in JSON.",
+   "The HTTP POST method is used to partially update a specific resource, while PATCH is used to create a new resource.",
+   "In Express.js, routing parameters in the URI are indicated by the `:` character.",
+   "GraphQL is a minimalist framework for Node.js used to create a basic web server, thus replacing Express."
+  ]
+ },
+ {
+  "id": 201,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which of the following are valid ways to test a web API?",
+  "answers": [
+   "Using Postman to simulate HTTP requests with a custom body and headers",
+   "Using the curl command in a Bash terminal",
+   "Using GraphQL to automatically generate test cases",
+   "Using Swagger Inspector"
+  ]
+ },
+ {
+  "id": 202,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which HTTP method is used to fully update a resource?",
+  "answers": [
+   "GET",
+   "POST",
+   "PUT",
+   "PATCH"
+  ]
+ },
+ {
+  "id": 203,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which of the following are API architectures?",
+  "answers": [
+   "REST",
+   "Microservices",
+   "SOAP",
+   "MVC"
+  ]
+ },
+ {
+  "id": 261,
+  "unit": "Web API with REST and Express.js",
+  "question": "When building a RESTful API with Express, what built-in middleware is required to automatically populate `req.body` when a client sends a `POST` request with the header `Content-Type: application/json`?",
+  "answers": [
+   "`app.use(express.bodyParser())`",
+   "`app.use(express.urlencoded({ extended: true }))`",
+   "`app.use(express.json())`",
+   "`app.use(express.raw({ type: 'application/json' }))`"
+  ]
+ },
+ {
+  "id": 204,
+  "unit": "Web API with REST and Express.js",
+  "question": "What is the difference between a URL parameter and a query parameter in Express?",
+  "answers": [
+   "A URL parameter is indicated with `:` in the route and is accessible with `req.params`.",
+   "A query parameter is placed after `?` and is accessible with `req.query`.",
+   "A URL parameter is always placed after `?`.",
+   "A query parameter is accessible with `req.params`."
+  ]
+ },
+ {
+  "id": 205,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which data format is most commonly used to exchange information with a modern Web API?",
+  "answers": [
+   "HTML format",
+   "JSON format",
+   "Raw CSV format",
+   "Binary format (EXE)"
+  ]
+ },
+ {
+  "id": 206,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which method is used to completely replace an existing resource?",
+  "answers": [
+   "OPTIONS",
+   "PUT",
+   "POST",
+   "PATCH"
+  ]
+ },
+ {
+  "id": 207,
+  "unit": "Web API with REST and Express.js",
+  "question": "Wich statement are true about query parameters?",
+  "answers": [
+   "They appear in the URL after a `?`",
+   "They are accessed using `req.query`",
+   "They must always be defined with `:` in the route",
+   "They only work with POST requests"
+  ]
+ },
+ {
+  "id": 262,
+  "unit": "Web API with REST and Express.js",
+  "question": "Based on the course, which of the following best highlights a specific advantage of GraphQL over standard REST APIs, particularly in complex or client-heavy applications?",
+  "answers": [
+   "GraphQL strictly requires HTTP DELETE and PUT verbs for all data mutations.",
+   "GraphQL automatically encrypts JSON payloads at the network protocol layer without requiring HTTPS.",
+   "GraphQL allows clients to request specific fields and relationships in a single query, reducing over-fetching and increasing integration flexibility.",
+   "GraphQL relies on static curl commands built directly into the Node.js core runtime."
+  ]
+ },
+ {
+  "id": 208,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which HTTP method is used to create a new resource in a REST API?",
+  "answers": [
+   "GET",
+   "POST",
+   "PUT",
+   "DELETE"
+  ]
+ },
+ {
+  "id": 263,
+  "unit": "Web API with REST and Express.js",
+  "question": "You want to update only the email of user 5 without resending the rest of its data. Which HTTP method and route best follow REST conventions?",
+  "answers": [
+   "`POST /users/5`",
+   "`PUT /users/5`",
+   "`PATCH /users/5`",
+   "`GET /users/5?email=new@mail.com`"
+  ]
+ },
+ {
+  "id": 209,
+  "unit": "Web API with REST and Express.js",
+  "question": "Dans une architecture utilisant une API REST, quel composant est généralement responsable d’exposer les endpoints de l’API et de traiter les requêtes des clients ?",
+  "answers": [
+   "Le navigateur web",
+   "Le front-end",
+   "Le back-end",
+   "Les cookies de navigation"
+  ]
+ },
+ {
+  "id": 210,
+  "unit": "Web API with REST and Express.js",
+  "question": "When a Web API is used, what happens most often?",
+  "answers": [
+   "The user receives a PDF file directly",
+   "A client sends an HTTP request and the server responds (often with JSON)",
+   "The API runs only client-side code, with no server",
+   "The browser never needs to call a server"
+  ]
+ },
+ {
+  "id": 211,
+  "unit": "Web API with REST and Express.js",
+  "question": "In Express.js, what are two valid characteristics or behaviors of a middleware function `(req, res, next) => { ... }`?",
+  "answers": [
+   "It can modify the `req` (request) and `res` (response) objects before passing them to the next handler.",
+   "It must return a database connection object to be considered valid.",
+   "It can terminate the request-response cycle by sending a response using `res.send()` or `res.json()`.",
+   "It automatically converts all synchronous code into asynchronous multithreaded workers."
+  ]
+ },
+ {
+  "id": 212,
+  "unit": "Web API with REST and Express.js",
+  "question": "Quelle est la principale différence entre une bibliothèque et un framework ?",
+  "answers": [
+   "Une bibliothèque impose toujours la structure du projet.",
+   "Un framework fournit une structure et des règles pour organiser l’application.",
+   "Une bibliothèque ne peut être utilisée qu’avec JavaScript.",
+   "Un framework sert uniquement à créer des interfaces graphiques."
+  ]
+ },
+ {
+  "id": 264,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which of the following statements about React are correct?",
+  "answers": [
+   "React is a JavaScript library",
+   "React is a framework like Angular",
+   "React was created by Facebook",
+   "React handles both the front end and the back end"
+  ]
+ },
+ {
+  "id": 265,
+  "unit": "Web API with REST and Express.js",
+  "question": "When configuring an Express application, what is the distinct function of calling `app.get()` with a single argument versus two arguments?",
+  "answers": [
+   "Passing a single argument sends an asynchronous query, while two arguments perform a synchronous operation.",
+   "Passing a single argument retrieves an application setting value, whereas passing a path and handler registers an HTTP GET route.",
+   "Passing a single argument creates an HTTPS server, while two arguments create an HTTP server.",
+   "Single argument calls register middleware, while two-argument calls attach database schemas."
+  ]
+ },
+ {
+  "id": 266,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which two of these are valid ways to define a route in Express?",
+  "answers": [
+   "`app.get('/users', (req, res) => res.send('ok'))`",
+   "`app.post('/users', (req, res) => res.status(201).json(req.body))`",
+   "`app.fetch('/users', (req, res) => res.send('ok'))`",
+   "`app.route.get('/users', (req, res) => res.send('ok'))`"
+  ]
+ },
+ {
+  "id": 267,
+  "unit": "Web API with REST and Express.js",
+  "question": "What is the correct order of the steps in a unit test structure?",
+  "answers": [
+   "Execution → Setup → Validation → Cleanup",
+   "Setup → Validation → Execution → Cleanup",
+   "Setup → Execution → Validation → Cleanup",
+   "Cleanup → Setup → Execution → Validation"
+  ]
+ },
+ {
+  "id": 268,
+  "unit": "Web API with REST and Express.js",
+  "question": "What is the main role of Express.js?",
+  "answers": [
+   "Replace JavaScript in the browser",
+   "Provide a minimalist framework for developing Node.js applications",
+   "Create graphical user interfaces only",
+   "Manage an SQL database"
+  ]
+ },
+ {
+  "id": 269,
+  "unit": "Web API with REST and Express.js",
+  "question": "According to the course, which statement describes a REST API?",
+  "answers": [
+   "It exposes a set of HTTP routes, uses HTTP verbs (GET, POST, PUT, DELETE) and usually communicates in JSON",
+   "It is a protocol that sends files over SSH",
+   "It only works with XML and requires a SOAP envelope",
+   "The client must connect directly to the server's database"
+  ]
+ },
+ {
+  "id": 270,
+  "unit": "Web API with REST and Express.js",
+  "question": "What is the distinction between the HTTP PUT and PATCH methods in a REST API?",
+  "answers": [
+   "PUT removes a resource, while PATCH retrieves it.",
+   "PUT creates a resource, while PATCH updates its metadata.",
+   "PUT updates a specific resource by id, while PATCH partially updates a specific resource by id.",
+   "PUT is asynchronous, while PATCH is synchronous."
+  ]
+ },
+ {
+  "id": 271,
+  "unit": "Web API with REST and Express.js",
+  "question": "What is the main difference/similarity in how Express accesses Vincent in these two cases?\n\n`GET /hello/Vincent`\n\n`GET /hello?name=Vincent`",
+  "answers": [
+   "In both cases with `req.body.name`",
+   "In the first case with `req.query.name`, and in the second with `req.params.name`",
+   "In the first case with `req.params.name`, and in the second with `req.query.name`",
+   "In both cases with `req.params.name`"
+  ]
+ },
+ {
+  "id": 272,
+  "unit": "Web API with REST and Express.js",
+  "question": "Why would a developer choose GraphQL over a traditional REST API for a complex front-end application?",
+  "answers": [
+   "To eliminate server-side routing",
+   "To enable selective properties and flexible relations in a single query",
+   "To replace HTTP verbs with WebSockets",
+   "To automatically generate SQL schemas"
+  ]
+ },
+ {
+  "id": 213,
+  "unit": "Web API with REST and Express.js",
+  "question": "In a Web API URL, which character is used to mark the beginning of Query Parameters (optional parameters, as in `/hello?name=John`)?",
+  "answers": [
+   "`#`",
+   "`?`",
+   "`:`",
+   "`@`"
+  ]
+ },
+ {
+  "id": 273,
+  "unit": "Web API with REST and Express.js",
+  "question": "In a unit test, what happens if an assertion detects an invalid result?",
+  "answers": [
+   "The test continues and ignores the error",
+   "The testing library corrects the result automatically",
+   "The test restarts automatically",
+   "The assertion throws an error and the test fails"
+  ]
+ },
+ {
+  "id": 274,
+  "unit": "Web API with REST and Express.js",
+  "question": "Which HTTP method is used to create a new resource in a REST API?",
+  "answers": [
+   "GET",
+   "DELETE",
+   "POST",
+   "PUT"
+  ]
+ },
+ {
+  "id": 275,
+  "unit": "Web API with REST and Express.js",
+  "question": "Avec Express, un client envoie la requête `GET /hello?name=John`. Dans la route `app.get('/hello', (req, res) => { ... })`, comment récupérer la valeur \"John\" ?",
+  "answers": [
+   "`req.body.name`",
+   "`req.headers.name`",
+   "`req.query.name`",
+   "`req.params.name`"
+  ]
+ },
+ {
+  "id": 303,
+  "unit": "Web API with REST and Express.js",
+  "question": "Quelle méthode HTTP sert à créer une nouvelle ressource ?",
+  "answers": [
+   "GET",
+   "DELETE",
+   "PUT",
+   "POST"
+  ]
+ },
+ {
+  "id": 308,
+  "unit": "Web API with REST and Express.js",
+  "question": "What is the main difference between the HTTP PUT and PATCH methods in a REST API?",
+  "answers": [
+   "PUT is generally used to create or replace the state of a resource at a target URI, while PATCH applies partial modifications.",
+   "PUT can only retrieve resources, while PATCH deletes them.",
+   "PUT requests must always use JSON, while PATCH requests must always use XML.",
+   "PUT is always non-idempotent, while PATCH is always idempotent."
+  ]
+ },
+ {
+  "id": 312,
+  "unit": "Web API with REST and Express.js",
+  "question": "A route is defined as app.get('/users/:id', handler). How can the handler access the ID in a request to /users/42?",
+  "answers": [
+   "req.query.id",
+   "req.body.id",
+   "res.params.id",
+   "req.params.id"
+  ]
+ },
+ {
+  "id": 346,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "Why use State instead of a variable to store a value for a React component?",
+  "answers": [
+   "Because a regular variable is forbidden in a React component.",
+   "Because state automatically saves the value to a database.",
+   "Because state always makes the value accessible to all components in the application.",
+   "Because a value stored in state is preserved between component renders, and updating it triggers the interface to re-render."
+  ]
+ },
+ {
+  "id": 347,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "What is the main difference between a library and a framework in JavaScript?",
+  "answers": [
+   "A library is always free, while a framework is always paid.",
+   "A library is written in JavaScript, while a framework is written in TypeScript.",
+   "With a library, you are in control and call its code when needed; with a framework, the framework controls the flow and calls your code.",
+   "A library can only be used on the front-end, while a framework can only be used on the back-end."
+  ]
+ },
+ {
+  "id": 348,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "Which of the following is not listed as a problem you may face when building a web application with React from scratch?",
+  "answers": [
+   "Bundling the code with a tool like webpack and transforming it with a compiler like Babel",
+   "Applying production optimizations such as code splitting",
+   "Deciding which pages to pre-render statically for performance and SEO",
+   "Updating the DOM efficiently each time the state changes"
+  ]
+ },
+ {
+  "id": 349,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "Which statement correctly compares function and class components?",
+  "answers": [
+   "A class component returns its JSX directly from the class body",
+   "A function component receives props as a parameter, while a class component defines render() and reads this.props",
+   "Class components are preferred and function components are deprecated",
+   "Both must extend React.Component"
+  ]
+ },
+ {
+  "id": 350,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "What is a React component ?",
+  "answers": [
+   "An independent and reusable piece of UI",
+   "A database query",
+   "An HTTP request",
+   "A CSS property"
+  ]
+ },
+ {
+  "id": 351,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "Quels problèmes rencontre-t-on en construisant une app React \"from scratch\" ?",
+  "answers": [
+   "Il faut un bundler (webpack) et un compilateur (Babel).",
+   "Il faut gérer soi-même les optimisations de production, comme le code splitting.",
+   "Il faut écrire du code serveur pour connecter l'app à la base de données.",
+   "Le JSX est directement compris par le navigateur, donc il faut le désactiver."
+  ]
+ },
+ {
+  "id": 352,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "Quelles affirmations décrivent correctement l'ISR ? (2 bonnes réponses)",
+  "answers": [
+   "Il dérive du SSG et permet une régénération en arrière-plan après un délai ou à la demande.",
+   "Il nécessite un rebuild complet du site à chaque mise à jour.",
+   "Il permet des pages statiques sans rebuild complet, popularisé par Next.js via l'option `revalidate`.",
+   "Il s'agit d'une variante du CSR où le navigateur régénère les pages."
+  ]
+ },
+ {
+  "id": 353,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "Consider the following code:\n\n```js\nfunction Counter({ initialCount }) {\n  const [count, setCount] = useState(initialCount)\n\n  return (\n    <button onClick={() => setCount(count + 1)}>\n      {count}\n    </button>\n  )\n}\n\nfunction App() {\n  return <Counter initialCount={5} />\n}\n```\n\nWhich statements are correct?",
+  "answers": [
+   "The counter initially displays `5`.",
+   "Clicking the button directly modifies the `initialCount` prop.",
+   "The counter uses `initialCount` to initialize its state.",
+   "The `count` state cannot change because its initial value comes from a prop."
+  ]
+ },
+ {
+  "id": 354,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "Which statements about React are correct?",
+  "answers": [
+   "React is a JavaScript library.",
+   "React is mainly intended for building user interfaces.",
+   "React is a full-fledged framework comparable to Angular according to the distinction presented in the course.",
+   "React can be used to build reusable interface components."
+  ]
+ },
+ {
+  "id": 355,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "What is the primary benefit of Incremental Static Regeneration (ISR) over standard Static Site Generation (SSG)?",
+  "answers": [
+   "It forces the entire website to rebuild from scratch every time a single file changes.",
+   "It allows updating static pages in the background after a delay or on-demand without requiring a full site rebuild.",
+   "It completely eliminates the need for a CDN or caching layer.",
+   "It renders every single page dynamically on the server at runtime for every user request like pure SSR."
+  ]
+ },
+ {
+  "id": 356,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "Quelle est la principale différence entre une library et un framework ?",
+  "answers": [
+   "Une library remplace JavaScript, un framework non",
+   "Une library impose la structure du projet, un framework non",
+   "Une library est un ensemble de briques réutilisables, un framework dicte l’architecture du projet",
+   "Il n’y a pas de différence, c’est la même chose"
+  ]
+ },
+ {
+  "id": 357,
+  "unit": "Frontend libraries and frameworks (React and Next.js)",
+  "question": "In a React application, what happens to JSX code before it is executed in the browser?",
+  "answers": [
+   "The browser parses JSX natively, just like HTML",
+   "A transpiler such as Babel converts it into React.createElement() calls",
+   "Next.js converts it into static HTML files, which are then sent to the browser without JavaScript",
+   "React injects it directly into the real DOM using innerHTML"
+  ]
+ },
+ {
+  "id": 276,
+  "unit": "Frontend libraries with React",
+  "question": "Which problem of building a React app from scratch does Next.js help solve?",
+  "answers": [
+   "Replacing JavaScript with a compiled language like Svelte",
+   "Converting class components into the DOM tree automatically",
+   "Bundling, code splitting, and choosing between static pre-rendering and server-side rendering",
+   "Removing the need for components and props"
+  ]
+ },
+ {
+  "id": 277,
+  "unit": "Frontend libraries with React",
+  "question": "Why does React use a virtual DOM?",
+  "answers": [
+   "To avoid using components and write the whole UI in a single file",
+   "To keep the real DOM in sync with state by updating only the parts that changed",
+   "To store the application state on the server",
+   "To replace HTML entirely with JavaScript files that browsers execute directly"
+  ]
+ },
+ {
+  "id": 278,
+  "unit": "Frontend libraries with React",
+  "question": "In React, what is the correct description of props?",
+  "answers": [
+   "Data that changes over time within a component",
+   "A way of passing read-only data from parent to child components",
+   "A special function used to hook into React features",
+   "The compiled output of JSX"
+  ]
+ },
+ {
+  "id": 279,
+  "unit": "Frontend libraries with React",
+  "question": "What is React?",
+  "answers": [
+   "A JavaScript library for building user interfaces",
+   "A JavaScript framework for managing databases",
+   "A programming language for web development",
+   "A deployment tool for web applications"
+  ]
+ },
+ {
+  "id": 214,
+  "unit": "Frontend libraries with React",
+  "question": "How does React organize a user interface?",
+  "answers": [
+   "Into independent, reusable components",
+   "Into SQL tables",
+   "Into virtual machines",
+   "Into HTML files only"
+  ]
+ },
+ {
+  "id": 215,
+  "unit": "Frontend libraries with React",
+  "question": "What's true about React?",
+  "answers": [
+   "React automatically manages the server and database for an application.",
+   "React can only be used to build mobile applications.",
+   "React isolates pieces of code in \"components\".",
+   "React virtualizes the entire DOM and uses javascript to render actual HTML in the form of React Components."
+  ]
+ },
+ {
+  "id": 216,
+  "unit": "Frontend libraries with React",
+  "question": "Which of the following are React hooks?",
+  "answers": [
+   "useState",
+   "useEffect",
+   "useRender",
+   "createElement"
+  ]
+ },
+ {
+  "id": 217,
+  "unit": "Frontend libraries with React",
+  "question": "Which features does Next.js provide for React applications?",
+  "answers": [
+   "Page-based routing",
+   "Static generation and server-side rendering",
+   "Automatic code splitting",
+   "A built-in relational database"
+  ]
+ },
+ {
+  "id": 218,
+  "unit": "Frontend libraries with React",
+  "question": "What is the difference between a Library and a Framework?",
+  "answers": [
+   "With a library, your code calls the library.",
+   "With a framework, the framework calls your code.",
+   "React is a framework, Angular is a library.",
+   "A library imposes the entire architecture of your project."
+  ]
+ },
+ {
+  "id": 219,
+  "unit": "Frontend libraries with React",
+  "question": "Which of the following are disadvantages of frameworks?",
+  "answers": [
+   "They start lean and simple, then become complex",
+   "They are hard to extend and customize",
+   "New frameworks come and go, which creates maintenance burden and technical debt",
+   "They prevent you from using JavaScript"
+  ]
+ },
+ {
+  "id": 220,
+  "unit": "Frontend libraries with React",
+  "question": "How does React update the user interface?",
+  "answers": [
+   "React virtualizes the DOM and uses JavaScript to output actual HTML",
+   "React directly and completely modifies the real browser DOM on every state change",
+   "If something changes, React updates that part of the virtual DOM and re-renders the element",
+   "The browser DOM is constructed as a tree of Objects when a web page is loaded"
+  ]
+ },
+ {
+  "id": 221,
+  "unit": "Frontend libraries with React",
+  "question": "Which of the following are native React hooks?",
+  "answers": [
+   "useState",
+   "useEffect",
+   "useRender",
+   "useProps"
+  ]
+ },
+ {
+  "id": 222,
+  "unit": "Frontend libraries with React",
+  "question": "What is the fundamental difference between a library and a framework?",
+  "answers": [
+   "A library is a set of building blocks usable anywhere, a framework dictates the project structure",
+   "A framework is always lighter than a library",
+   "There is no difference, they are two words for the same thing",
+   "A library dictates the project structure, a framework can be used anywhere"
+  ]
+ },
+ {
+  "id": 223,
+  "unit": "Frontend libraries with React",
+  "question": "What is the main difference between React and Angular?",
+  "answers": [
+   "React is a complete framework, while Angular is only a CSS library.",
+   "React is a JavaScript library focused on UI components, while Angular is a complete framework.",
+   "React was created by Google, while Angular was created by Facebook.",
+   "React is used for database management, while Angular is for frontend styling."
+  ]
+ },
+ {
+  "id": 224,
+  "unit": "Frontend libraries with React",
+  "question": "What are the main structural and operational differences between libraries and frameworks?",
+  "answers": [
+   "Libraries act as flexible building blocks, whereas frameworks dictate how a project is structured.",
+   "Frameworks eliminate the need for common guidelines or best practices.",
+   "Disadvantages of frameworks include difficulties with customization.",
+   "Unlike frameworks, libraries always dictate the entire architectural design of your application."
+  ]
+ },
+ {
+  "id": 225,
+  "unit": "Frontend libraries with React",
+  "question": "Which following statement is true about the DOM?",
+  "answers": [
+   "Can be modified with JavaScript",
+   "Is a programming language used to create websites",
+   "Represents the document as nodes and objects",
+   "Is a server used to store website data"
+  ]
+ },
+ {
+  "id": 226,
+  "unit": "Frontend libraries with React",
+  "question": "What does SSR mean in Next.js?",
+  "answers": [
+   "Simple Style Rendering",
+   "Server-Side Rendering",
+   "System State Routing",
+   "Server Source Repository"
+  ]
+ },
+ {
+  "id": 227,
+  "unit": "Frontend libraries with React",
+  "question": "Which statement accurately describes JSX in a React application?",
+  "answers": [
+   "It is natively rendered by browsers without compilation.",
+   "It replaces state management hooks in functional components.",
+   "It is transformed into `React.createElement()` calls by a transpiler.",
+   "It directly modifies the native HTML DOM tree without JavaScript."
+  ]
+ },
+ {
+  "id": 228,
+  "unit": "Frontend libraries with React",
+  "question": "What is the main difference between a library and a framework?",
+  "answers": [
+   "A library dictates the project's architecture",
+   "A framework dictates the project's architecture",
+   "Both impose exactly the same structure",
+   "Neither helps with development"
+  ]
+ },
+ {
+  "id": 229,
+  "unit": "Frontend libraries with React",
+  "question": "What is the primary difference between a library like React and a framework like Next.js?",
+  "answers": [
+   "React provides the structure for the entire application, while Next.js is just a UI building block.",
+   "React is a UI library focused on building components, whereas Next.js is a framework that handles routing, server-side rendering, and project structure.",
+   "React is only used for backend development, while Next.js is used for frontend interfaces.",
+   "React cannot be used together with Next.js in the same project."
+  ]
+ },
+ {
+  "id": 280,
+  "unit": "Frontend libraries with React",
+  "question": "A student writes the following code in `app.js` and loads it directly in an HTML page with `<script src=\"app.js\"></script>`, without any build tool:\n\n```js\nconst element = <h1>Hello</h1>\nReactDOM.render(element, document.getElementById('root'))\n```\n\nReact is loaded on the page. What happens?",
+  "answers": [
+   "\"Hello\" is displayed, because modern browsers understand JSX natively",
+   "The browser throws a syntax error, because JSX is not valid JavaScript and must first be transformed",
+   "The `<h1>` is displayed as plain text: `<h1>Hello</h1>`",
+   "Nothing is displayed, but there is no error"
+  ]
+ },
+ {
+  "id": 230,
+  "unit": "Frontend libraries with React",
+  "question": "What is the purpose of JSX in React?",
+  "answers": [
+   "It replaces JavaScript entirely.",
+   "It allows HTML-like syntax to be written inside JavaScript.",
+   "It is used to create databases.",
+   "It directly renders HTML without any compilation or transformation."
+  ]
+ },
+ {
+  "id": 231,
+  "unit": "Frontend libraries with React",
+  "question": "Which framework extends React and supports server-side rendering?",
+  "answers": [
+   "Express.js",
+   "Flask",
+   "Next.js",
+   "Spring"
+  ]
+ },
+ {
+  "id": 232,
+  "unit": "Frontend libraries with React",
+  "question": "Parmi ces termes, lesquels sont directement liés à la génération statique (SSG) et à l'architecture Jamstack ?",
+  "answers": [
+   "`use server`",
+   "`generateStaticParams`",
+   "Build-time",
+   "GitOps / Pull Requests"
+  ]
+ },
+ {
+  "id": 281,
+  "unit": "Frontend libraries with React",
+  "question": "What is the main role of ReactDOM in a React application?",
+  "answers": [
+   "To create and manage a database",
+   "To connect React components to the browser DOM and render them",
+   "To install React packages",
+   "To create an API server"
+  ]
+ },
+ {
+  "id": 282,
+  "unit": "Frontend libraries with React",
+  "question": "Which two of these statements about React are true?",
+  "answers": [
+   "React is a JavaScript library used to build user interfaces on the front end",
+   "React is a framework, like Angular, that dictates how the whole application is structured",
+   "React is an open-source project created by Facebook",
+   "React is a back-end database engine"
+  ]
+ },
+ {
+  "id": 283,
+  "unit": "Frontend libraries with React",
+  "question": "What is the main difference between a library and a framework?",
+  "answers": [
+   "A library is always open-source, while a framework is always proprietary",
+   "A library provides building blocks you can use anywhere, while a framework dictates how your project is structured",
+   "A framework only handles the user interface, while a library handles routing and data fetching",
+   "There is no real difference, the two terms are interchangeable"
+  ]
+ },
+ {
+  "id": 284,
+  "unit": "Frontend libraries with React",
+  "question": "What is the DOM (Document Object Model)?",
+  "answers": [
+   "A programming language used to create web pages.",
+   "A tree-like representation of a web document made of nodes and objects.",
+   "A JavaScript library used to modify HTML files.",
+   "A database where the browser stores web pages."
+  ]
+ },
+ {
+  "id": 285,
+  "unit": "Frontend libraries with React",
+  "question": "According to the course, what is the main difference between a library and a framework?",
+  "answers": [
+   "A library is a set of building blocks you can use anywhere (bricks), a framework dictates how your project is structured (frames)",
+   "A library dictates how your project is structured, a framework is a set of building blocks you call when you need them",
+   "A framework only runs on the server, a library only runs in the browser",
+   "A library is written in TypeScript, a framework in JavaScript"
+  ]
+ },
+ {
+  "id": 286,
+  "unit": "Frontend libraries with React",
+  "question": "Which of these is a disadvantage of using a framework?",
+  "answers": [
+   "It forces you to reinvent the wheel",
+   "It can become complex and hard to extend or customize over time",
+   "It prevents you from focusing on business logic",
+   "It provides no guidelines or best practices"
+  ]
+ },
+ {
+  "id": 287,
+  "unit": "Frontend libraries with React",
+  "question": "Which statements are true about React?",
+  "answers": [
+   "React is an open-source JavaScript library",
+   "React is a full framework, like Angular",
+   "React is used to build user interfaces (UI) on the front end",
+   "React was created by Google"
+  ]
+ },
+ {
+  "id": 288,
+  "unit": "Frontend libraries with React",
+  "question": "Which feature is natively supported by Next.js for page pre-rendering?",
+  "answers": [
+   "Client-side hydration only",
+   "Both Static Generation (SSG) and Server-Side Rendering (SSR)",
+   "Only Static Generation (SSG)",
+   "Virtual DOM Compilation (VDC)"
+  ]
+ },
+ {
+  "id": 289,
+  "unit": "Frontend libraries with React",
+  "question": "When building a web application with React from scratch, developers face several infrastructure challenges. Which of the following problems is automatically solved out-of-the-box by a React-based framework like Next.js?",
+  "answers": [
+   "Configuring bundlers (like Webpack) and compilers (like Babel) for code transformation.",
+   "Implementing page-based routing and automatic code splitting for faster page loads.",
+   "Supporting pre-rendering techniques such as Static Site Generation (SSG) and Server-Side Rendering (SSR) per page.",
+   "All of the above."
+  ]
+ },
+ {
+  "id": 290,
+  "unit": "Frontend libraries with React",
+  "question": "Which tool focuses on building UI components, without imposing a full project structure?",
+  "answers": [
+   "AngularJS",
+   "Angular",
+   "Next.js",
+   "React"
+  ]
+ },
+ {
+  "id": 291,
+  "unit": "Frontend libraries with React",
+  "question": "In React, what happens to JSX code before it runs in the browser?",
+  "answers": [
+   "The browser reads and renders the JSX directly, like HTML",
+   "A transpiler like Babel converts it into `React.createElement()` calls",
+   "Next.js turns it into `document.createElement()` calls on the real DOM",
+   "It is converted into a CSS-in-JS object that React then applies"
+  ]
+ },
+ {
+  "id": 233,
+  "unit": "Frontend libraries with React",
+  "question": "In react, what is the primary purpose of the virtual DOM:",
+  "answers": [
+   "to store application state in memory for faster access",
+   "to directly manipulate the browser's DOM for better performance",
+   "to provide an in-memory representation of the UI that react uses to efficiently update the real DOM",
+   "to handle routing between différent pages"
+  ]
+ },
+ {
+  "id": 292,
+  "unit": "Frontend libraries with React",
+  "question": "What fundamental architectural distinction differentiates a framework like Next.js or Angular from a library like React or jQuery?",
+  "answers": [
+   "A framework provides low-level building blocks that must be called explicitly by custom code at every step.",
+   "A library eliminates the need for build tools like Babel or Webpack, whereas frameworks require them.",
+   "A framework controls the flow of execution and invokes developer code, whereas developer code calls a library.",
+   "A library dictates the overall project structure and automatically invokes developer code."
+  ]
+ },
+ {
+  "id": 293,
+  "unit": "Frontend libraries with React",
+  "question": "What is the main difference between a library and a framework?",
+  "answers": [
+   "A library is always smaller than a framework",
+   "A framework dictates the project structure, while a library provides building blocks that can be used anywhere",
+   "A library can only be used on the server side",
+   "A framework is always open-source, but a library is not"
+  ]
+ },
+ {
+  "id": 294,
+  "unit": "Frontend libraries with React",
+  "question": "À quoi sert le hook `useEffect` ?",
+  "answers": [
+   "Déclarer une variable de state",
+   "Gérer les effets de bord, comme le fetch de données",
+   "Attacher un composant au DOM",
+   "Transpiler le JSX"
+  ]
+ },
+ {
+  "id": 295,
+  "unit": "Frontend libraries with React",
+  "question": "Which React hook is used for side effects such as data fetching?",
+  "answers": [
+   "`useState`",
+   "`useEffect`",
+   "`useProps`",
+   "`useRender`"
+  ]
+ },
+ {
+  "id": 296,
+  "unit": "Frontend libraries with React",
+  "question": "Before the browser displays a react component, what happens to the JSX code?",
+  "answers": [
+   "Next.js automatically converts the JSX into JavaScript using Node.js.",
+   "React sends the JSX to the server, where it is converted into HTML.",
+   "A transpiler such as Babel transforms the JSX into `React.createElement()` calls.",
+   "The browser renders the JSX directly as HTML without any transformation."
+  ]
+ },
+ {
+  "id": 298,
+  "unit": "Frontend libraries with React",
+  "question": "Which of the following are React hooks?",
+  "answers": [
+   "useState",
+   "useEffect",
+   "useRender",
+   "useProps"
+  ]
+ },
+ {
+  "id": 299,
+  "unit": "Frontend libraries with React",
+  "question": "What is the main difference between a library and a framework?",
+  "answers": [
+   "A library can only be used on the server side, while a framework runs in the browser",
+   "A library provides building blocks you can use anywhere, while a framework dictates how your project is structured",
+   "A framework is always smaller and simpler than a library",
+   "There is no difference, both terms mean the same thing"
+  ]
+ },
+ {
+  "id": 304,
+  "unit": "Frontend libraries with React",
+  "question": "Comment le DOM est-il structuré ?",
+  "answers": [
+   "Comme un tableau plat",
+   "Comme une base de données relationnelle",
+   "Comme un arbre d'objets",
+   "Comme un fichier JSON unique"
+  ]
+ },
+ {
+  "id": 309,
+  "unit": "Frontend libraries with React",
+  "question": "In Next.js App Router, what is a key characteristic of React Server Components?",
+  "answers": [
+   "Server Components always execute in the user's browser.",
+   "The use client directive disables all rendering on the server.",
+   "Every React component in Next.js must be a Client Component.",
+   "Server Components can fetch data and render on the server without sending their component JavaScript to the client."
+  ]
+ },
+ {
+  "id": 313,
+  "unit": "Frontend libraries with React",
+  "question": "In React, what is the difference between props and state?",
+  "answers": [
+   "Props are used to manage user interactions, while state is used to pass data between components.",
+   "Props can be updated directly by the component receiving them, while state can only be updated by the parent component.",
+   "Props pass data from parent to child, while state stores data that can change over time.",
+   "Props and state both store data, but props are used only for function components while state is used only for class components."
+  ]
+ },
+ {
+  "id": 319,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which sentence describes the strategy 'SSR'?",
+  "answers": [
+   "A fully static page, rendered at build time.",
+   "A page rendered on every request.",
+   "A static page regenerated in the background.",
+   "A client component fetching data in the browser."
+  ]
+ },
+ {
+  "id": 322,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which of the following statements regarding Static Site Generation (SSG) are correct?",
+  "answers": [
+   "HTML is generated at build time and then served as-is via a CDN.",
+   "Content remains fresh and updates dynamically on every request without requiring a new build.",
+   "It provides extremely fast performance, high security, and low hosting costs.",
+   "It requires complex server-side logic and database queries to generate pages on-demand for each user."
+  ]
+ },
+ {
+  "id": 358,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "What is the technical term for the gap between visual rendering and interactivity?",
+  "answers": [
+   "Hydration mismatch",
+   "Cumulative Layout Shift (CLS)",
+   "Uncanny valley",
+   "Total Blocking Time (TBT)"
+  ]
+ },
+ {
+  "id": 359,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which of the following statements about web performance metrics are correct?",
+  "answers": [
+   "INP replaced FID as a Core Web Vital and measures the latency of interactions during the whole visit, with a good score at or below 200 ms.",
+   "TBT is a field metric collected from real users through CrUX.",
+   "Core Web Vitals are evaluated on field data at the 75th percentile.",
+   "CLS is measured in milliseconds, and a good score is at or below 100 ms."
+  ]
+ },
+ {
+  "id": 360,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which rendering strategy generates the HTML at build time, then regenerates pages in the background after a delay or on demand, without a full rebuild?",
+  "answers": [
+   "SSR",
+   "CSR",
+   "ISR",
+   "Edge rendering"
+  ]
+ },
+ {
+  "id": 363,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which of the following rendering strategies avoid sending a full JavaScript hydration bundle to the browser while keeping the initial HTML fast and SEO-friendly?",
+  "answers": [
+   "Islands Architecture (e.g., Astro)",
+   "Resumability (e.g., Qwik)",
+   "Standard Server-Side Rendering (SSR)",
+   "Client-Side Rendering (CSR)"
+  ]
+ },
+ {
+  "id": 364,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which characteristics correspond to SSG ?",
+  "answers": [
+   "HTML is generated at build time",
+   "Pages are often served through a CDN",
+   "Content is automatically updated on every request",
+   "SSG can reduce page delivery costs"
+  ]
+ },
+ {
+  "id": 365,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which directive is required to make a component run on the client side in the Next.js App Router?",
+  "answers": [
+   "'use server'",
+   "'use client'",
+   "revalidate",
+   "generateStaticParams"
+  ]
+ },
+ {
+  "id": 366,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which Core Web Vital replaced FID and measures the latency of interactions during a visit?",
+  "answers": [
+   "TTI",
+   "TBT",
+   "INP",
+   "LCP"
+  ]
+ },
+ {
+  "id": 367,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which of the following thresholds are considered correct?",
+  "answers": [
+   "LCP ≤ 2.5s",
+   "INP ≤ 2s",
+   "CLS ≤ 0.1",
+   "CLS ≤ 10 seconds"
+  ]
+ },
+ {
+  "id": 368,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which statements about Server Components are true?",
+  "answers": [
+   "They execute only on the server",
+   "They contribute zero client-side JavaScript for the Server Components themselves",
+   "They can only be used with SSR",
+   "They can only be used with CSR"
+  ]
+ },
+ {
+  "id": 371,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "What is CSR, and how does it work ?",
+  "answers": [
+   "CSR stands for Computer-Server Rendering.",
+   "CSR stands for Client-Side Rendering.",
+   "The user requests a website → The server sends nearly empty HTML and a JavaScript bundle → The browser executes JavaScript, fetches data from APIs, and builds the DOM.",
+   "The user requests a website → The server generates the complete HTML at build time → The browser displays the pre-rendered page."
+  ]
+ },
+ {
+  "id": 372,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which performance metric measures layout instability caused by elements moving unexpectedly during page load?",
+  "answers": [
+   "TTFB (Time To First Byte)",
+   "CLS (Cumulative Layout Shift)",
+   "TBT (Total Blocking Time)",
+   "INP (Interaction to Next Paint)"
+  ]
+ },
+ {
+  "id": 373,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which rendering strategy generates HTML at build time and serves it through a CDN, providing very fast performance but requiring a new build to update content?",
+  "answers": [
+   "Client-Side Rendering (CSR)",
+   "Server-Side Rendering (SSR)",
+   "Static Site Generation (SSG)",
+   "Streaming SSR"
+  ]
+ },
+ {
+  "id": 374,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "What is the main purpose of Incremental Static Regeneration (ISR)?",
+  "answers": [
+   "Generate HTML on every request",
+   "Update static pages without requiring a full rebuild",
+   "Remove the need for hydration entirely",
+   "Execute components only on the client"
+  ]
+ },
+ {
+  "id": 375,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "A Next.js website displays product information that changes frequently and must be personalized for each user. Which statements about rendering strategies are correct?",
+  "answers": [
+   "Server-Side Rendering (SSR) generates HTML on each request, making it suitable for fresh and personalized content.",
+   "Static Site Generation (SSG) automatically provides fresh, user-specific content on every request without rebuilding pages.",
+   "Incremental Static Regeneration (ISR) can update static pages in the background without requiring a full rebuild.",
+   "Client-Side Rendering (CSR) always provides the best initial content display and SEO performance."
+  ]
+ },
+ {
+  "id": 376,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which strategy regenerates static pages without a full rebuild?",
+  "answers": [
+   "ISR",
+   "SSG",
+   "SSR",
+   "CSR"
+  ]
+ },
+ {
+  "id": 377,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which of the following statements are true regarding Client-Side Rendering (CSR)?",
+  "answers": [
+   "The server initially sends a nearly empty HTML document along with a JavaScript bundle.",
+   "It provides smooth navigation after the initial load but often results in a slow first paint (FCP/LCP) and fragile SEO.",
+   "The HTML is fully generated on the server for every request, providing immediately visible content.",
+   "The page content is generated at build time and served as-is via a CDN."
+  ]
+ },
+ {
+  "id": 378,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which two of these statements about rendering strategies are true?",
+  "answers": [
+   "With SSR (Server-Side Rendering), the HTML of a page is generated on the server for each request.",
+   "With SSG (Static Site Generation), the HTML of a page is generated at build time and can be served from a CDN.",
+   "With CSR (Client-Side Rendering), the HTML is fully generated on the server before being sent to the browser.",
+   "With SSG, the page content is regenerated on the server on every single request."
+  ]
+ },
+ {
+  "id": 379,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "A site is generated statically and served from a CDN, but some pages must be refreshed in the background after a delay, without rebuilding the entire site. Which rendering strategy does the course describe for this need?",
+  "answers": [
+   "ISR (Incremental Static Regeneration)",
+   "Pure SSG, where content stays frozen until the next build",
+   "SSR, where the HTML is generated on every request",
+   "CSR, where the browser builds the DOM from a JS bundle"
+  ]
+ },
+ {
+  "id": 380,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "An online shop has 10,000 product pages. Prices change a few times a day, the pages must be indexed by search engines, and the first load must be very fast. Which rendering strategy fits best?",
+  "answers": [
+   "CSR, because the server stays light",
+   "SSR, because the HTML is generated on every request",
+   "ISR, because static pages are regenerated in the background after a delay",
+   "Pure SSG, because pages are generated once at build time"
+  ]
+ },
+ {
+  "id": 381,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "What is the main difference between Client-Side Rendering (CSR) and Server-Side Rendering (SSR) regarding how initial HTML content is delivered?",
+  "answers": [
+   "In CSR, the server returns a fully rendered HTML page with all data, while in SSR, the browser generates the HTML using JavaScript.",
+   "In CSR, the browser receives a minimal HTML shell and renders the UI using JavaScript, whereas in SSR, the server generates the full HTML for each request.",
+   "CSR executes code exclusively on an edge server, while SSR relies entirely on WebGL within the user's browser.",
+   "CSR is only used for static site generation, while SSR requires real-time Canvas rendering."
+  ]
+ },
+ {
+  "id": 382,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which statement about Core Web Vitals is correct?",
+  "answers": [
+   "INP measures unexpected layout shifts and is considered good when ≤ 0.1",
+   "CLS measures interaction latency and is considered good when ≤ 200 ms",
+   "INP measures page loading time and is considered good when ≤ 2.5 s",
+   "INP measures interaction latency and is considered good when ≤ 200 ms"
+  ]
+ },
+ {
+  "id": 383,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "A website displays personalized, frequently changing user data. Which strategy is generally the most appropriate?",
+  "answers": [
+   "SSG without revalidation.",
+   "SSR on each request.",
+   "Pure static export with no client-side requests.",
+   "Build-time generation only"
+  ]
+ },
+ {
+  "id": 384,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "If we want each page of a website to be generated only when it is first requested, then cached for future visitors, without serving stale content. Which rendering technique best matches?",
+  "answers": [
+   "Client-Side Rendering (CSR)",
+   "Streaming Server-Side Rendering",
+   "Deferred/on-demand rendering (DPR)",
+   "Selective hydration"
+  ]
+ },
+ {
+  "id": 385,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "In a Server-Side Rendering data fetching strategy, what is the main advantage of fetching data before rendering the page?",
+  "answers": [
+   "Reducing the size of the database",
+   "displaying a page that is already populated with data on the initial load",
+   "automatically increasing network speed",
+   "completely eliminating API calls"
+  ]
+ },
+ {
+  "id": 386,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which metric measures the delay between a network request and the response start?",
+  "answers": [
+   "A) TTFB (Time To First Byte)",
+   "B) FCP (First Contentful Paint)",
+   "C) LCP (Largest Contentful Paint)",
+   "D) TBT (Total Blocking Time)"
+  ]
+ },
+ {
+  "id": 387,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "What happens during hydration in a React application ?",
+  "answers": [
+   "JavaScript generates the HTML in the browser",
+   "React updates the HTML with fresh server data",
+   "JavaScript makes server-rendered HTML interactive",
+   "API responses are cached by the server"
+  ]
+ },
+ {
+  "id": 388,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "What is the main advantage of SSG compared to Server-Side Rendering SSR ?",
+  "answers": [
+   "It automatically personalizes each page for every user",
+   "It makes all pages interactive without JavaScript",
+   "It generates HTML on every request to ensure fresh data",
+   "It serves pre-generated pages quickly through a CDN"
+  ]
+ },
+ {
+  "id": 389,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which rendering strategy is most appropriate when a page requires high SEO indexability and serves static content that is identical for all visitors?",
+  "answers": [
+   "Client-Side Rendering",
+   "Server-Side Rendering",
+   "Static Site Generation",
+   "Incremental Static Regeneration"
+  ]
+ },
+ {
+  "id": 390,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which option triggers a static page to be refreshed in the background every 60 seconds?",
+  "answers": [
+   "export const dynamic = “force-dynamic”",
+   "export const revalidate = 60",
+   "export const runtime = “edge”",
+   "cache: 'no-store'"
+  ]
+ },
+ {
+  "id": 393,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which of the following statements about rendering strategies is correct?",
+  "answers": [
+   "Edge rendering is a variant of SSG: pages are pre-rendered at build time directly on CDN nodes close to the user.",
+   "Unlike ISR, DPR (on-demand rendering) never serves stale content, because each page is generated once, deterministically, on its first request and then cached.",
+   "Server Components are a page-level strategy that replaces SSR, so they cannot be combined with SSG or ISR.",
+   "Resumability, as in Qwik, reduces hydration cost by hydrating components selectively depending on their priority or visibility."
+  ]
+ },
+ {
+  "id": 398,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which rendering strategy generates the HTML at build time and serves it as-is through a CDN, meaning the content stays frozen until the next build?",
+  "answers": [
+   "CSR – Client-Side Rendering",
+   "CSR – Client-Side Rendering",
+   "Edge rendering",
+   "SSG – Static Site Generation"
+  ]
+ },
+ {
+  "id": 399,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "In a Next.js project, which file creates the page served at the URL `/about`?",
+  "answers": [
+   "app/about/page.js",
+   "app/router/about.js",
+   "app/about/layout.js",
+   "app/about.js"
+  ]
+ },
+ {
+  "id": 400,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which rendering strategy changes where the rendering happens, but not how? It runs SSR on CDN nodes close to the user to reduce TTFB.",
+  "answers": [
+   "Streaming SSR",
+   "ISR (Incremental Static Regeneration)",
+   "Edge rendering",
+   "Server Components"
+  ]
+ },
+ {
+  "id": 402,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which of the following statements about rendering strategies is correct?",
+  "answers": [
+   "CSR provides good SEO because the page is built in the browser",
+   "SSR has the fastest TTFB because the data is always fresh",
+   "ISR combines a very fast TTFB with semi-fresh data thanks to background regeneration",
+   "SSG is interactive as soon as it is displayed, without hydration"
+  ]
+ },
+ {
+  "id": 406,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "In client-side rendering (CSR), where is the page's content built?",
+  "answers": [
+   "On the server, before the HTML is sent to the browser",
+   "In the browser, using JavaScript after the page loads",
+   "In the database, when the data is saved",
+   "At build time, once for all visitors"
+  ]
+ },
+ {
+  "id": 408,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "In a Next.js App Router page, data is fetched like this:\n\n```js\nexport default async function Page() {\n  const res = await fetch('https://api.example.com/articles', {\n    next: { revalidate: 60 },\n  })\n  const articles = await res.json()\n  return <ArticleList articles={articles} />\n}\n```\n\nWhich rendering strategy does this page use?",
+  "answers": [
+   "SSG: the page is built once and the articles stay the same until the next build",
+   "ISR: the page is served statically and regenerated in the background, at most once every 60 seconds",
+   "SSR: the page is regenerated on the server for every request",
+   "CSR: the articles are fetched in the browser after the first paint"
+  ]
+ },
+ {
+  "id": 412,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which two statements correctly describe Incremental Static Regeneration (ISR) and Client-Side Rendering (CSR)?",
+  "answers": [
+   "With ISR, static pages can be updated or regenerated in the background without rebuilding the entire site.",
+   "With CSR, initial page load speeds can be slower because JavaScript must be downloaded and executed in the browser first.",
+   "With CSR, search engine crawlers always index all dynamic content instantly without needing special setup.",
+   "With ISR, HTML pages are always generated completely from scratch for every incoming HTTP request."
+  ]
+ },
+ {
+  "id": 421,
+  "unit": "Rendering strategies and data fetching with Next.js",
+  "question": "Which statements are true?",
+  "answers": [
+   "ISR allows static pages to be updated without a full site rebuild",
+   "TTI is a Core Web Vital",
+   "Server Components can be combined with SSG, ISR, and SSR",
+   "Edge rendering changes how the HTML is generated, not where it is generated."
+  ]
+ }
+]

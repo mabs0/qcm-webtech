@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QCM Webtech</title>
+  <meta name="description" content="Entraînement aux QCM du cours Web Technologies : questions aléatoires, note sur 20 et bibliothèque corrigée.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%234f46e5'/><text x='16' y='22' font-size='17' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>Q</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#/" class="brand">
+        <span class="logo">Q</span>
+        <span>QCM Webtech</span>
+      </a>
+      <nav class="tabs">
+        <a href="#/" data-route="home">Entraînement</a>
+        <a href="#/bibli" data-route="bibli">Bibliothèque</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app"><div class="loading">Chargement des questions…</div></main>
+
+  <footer class="muted">
+    Questions : <a href="https://mcq-api.paul-farault.workers.dev/questions">mcq-api</a> ·
+    corrigé non officiel, des erreurs sont possibles
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
